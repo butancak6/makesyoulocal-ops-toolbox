@@ -5,7 +5,7 @@ import io
 
 # Setup: Pulling Gemini API Key from Streamlit Secrets
 genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
-model = genai.GenerativeModel('gemini-1.5-flash-latest')
+model = genai.GenerativeModel('gemini-flash-latest')
 
 st.set_page_config(page_title="Ops & Automation Toolbox", layout="wide", page_icon="🛠️")
 
