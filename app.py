@@ -6,6 +6,7 @@ import io
 # Setup: Pulling Gemini API Key from Streamlit Secrets
 genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
 model = genai.GenerativeModel('gemini-flash-latest')
+access_password = st.sidebar.text_input("Enter Access Key:", type="password")
 
 st.set_page_config(page_title="Ops & Automation Toolbox", layout="wide", page_icon="🛠️")
 
@@ -24,19 +25,22 @@ with tab1:
                                height=200)
 
     if st.button("Generate SOP"):
-        if messy_input:
-            with st.spinner("Gemini is structuring your documentation..."):
-                prompt = (
-                    f"Convert the following messy process description into a professional Standard Operating Procedure (SOP). "
-                    f"Use these Markdown headings: Objective, Prerequisites, Step-by-Step Instructions, and Common Troubleshooting. "
-                    f"Keep it concise and clear for a new hire. Process: {messy_input}"
-                )
-                
-                response = model.generate_content(prompt)
-                st.markdown("---")
-                st.markdown(response.text)
+        if access_password == st.secrets["APP_PASSWORD"]:
+            if messy_input:
+                with st.spinner("Gemini is structuring your documentation..."):
+                    prompt = (
+                        f"Convert the following messy process description into a professional Standard Operating Procedure (SOP). "
+                        f"Use these Markdown headings: Objective, Prerequisites, Step-by-Step Instructions, and Common Troubleshooting. "
+                        f"Keep it concise and clear for a new hire. Process: {messy_input}"
+                    )
+                    
+                    response = model.generate_content(prompt)
+                    st.markdown("---")
+                    st.markdown(response.text)
+            else:
+                st.warning("Please enter a process description.")
         else:
-            st.warning("Please enter a process description.")
+        st.error("Please enter the correct Access Key to use the AI features.")
 
 # --- TAB 2: TICKET TRIAGE ---
 with tab2:
