@@ -1,0 +1,51 @@
+Ticket_ID,Subject,Message,Order_ID,Status,Priority,Country
+1001,Missing Item in Order,"I received my order, but the 'Wireless Bluetooth Headphones' are missing. Please investigate.",ORD-2026-98765,Open,High,UK
+1002,Wrong Size Delivered,"I ordered a size L T-shirt, but received a size S. The item is 'Summer V-Neck Tee'.",ORD-2026-98766,Open,Medium,UK
+1003,Tracking Number Not Working,The tracking number ABC123XYZ provided for my order shows 'Invalid' on the courier's website.,ORD-2026-98767,Pending,Low,Denmark
+1004,Request for Refund Status,I returned item XYZ two weeks ago. Can you update me on the status of my refund?,ORD-2026-98768,Processing,Medium,Sweden
+1005,Defective Product Received,The 'Automatic Coffee Maker' arrived with a cracked carafe. It's unusable.,ORD-2026-98769,Open,High,Germany
+1006,Can't Apply Discount Code,"The code 'SAVE20' is not working at checkout, saying it's expired, but the promotion says otherwise.",ORD-2026-98770,Open,Medium,UK
+1007,Change Shipping Address,"I need to change the shipping address for order ORD-2026-98771. New address is 123 Main St, Apt 4B.",ORD-2026-98771,Pending,High,UK
+1008,Inquiry about Product Stock,Is the 'Vintage Leather Backpack' going to be restocked soon? It's currently showing 'Out of Stock'.,N/A,Open,Low,UK
+1009,Problem with Payment,"My credit card was declined, but I checked and the funds are available. Can you check on your end?",ORD-2026-98772,Failed,High,Sweden
+1010,Cancel Order Request,Please cancel my order immediately. I accidentally double-ordered the 'Ergonomic Mouse'.,ORD-2026-98773,Open,High,UK
+1011,Duplicate Charge on Card,I see two charges for the same amount ($55.99) for order ORD-2026-98774. Please resolve.,ORD-2026-98774,Open,High,Germany
+1012,Delivery Delay Concern,My package was supposed to arrive yesterday and the tracking hasn't updated in 3 days.,ORD-2026-98775,Pending,Medium,Denmark
+1013,Need Invoice/Receipt,I require a copy of the invoice for order ORD-2026-98776 for my business expenses.,ORD-2026-98776,Resolved,Low,Sweden
+1014,Request to Combine Orders,I placed two separate orders (98777 and 98778). Can they be shipped together?,ORD-2026-98777,Pending,Medium,Denmark
+1015,Issue with Guest Checkout,I checked out as a guest and can't find a link to track my order. Can you provide it?,ORD-2026-98779,Open,Medium,Germany
+1016,Damaged Packaging,The box arrived severely crushed. I am concerned about the contents ('Glassware Set').,ORD-2026-98780,Open,High,Denmark
+1017,Question about Warranty,What is the warranty period for the 'Smartwatch X'? Does it cover water damage?,N/A,Open,Low,Denmark
+1018,Return Label Not Received,I initiated a return but haven't received the return shipping label via email.,ORD-2026-98781,Pending,High,Sweden
+1019,Incorrect Item Description,"The product page for 'Wool Sweater' says 100% wool, but the tag says 50% Acrylic.",N/A,Open,Low,UK
+1020,Unable to Login to Account,"I can't log in, and the password reset link is not being sent to my email.",N/A,Open,High,Denmark
+1021,Inquiry about Bulk Pricing,I would like to purchase 50 units of the 'Reusable Water Bottle'. Do you offer bulk discounts?,N/A,Open,Low,Denmark
+1022,Missing Components,The 'DIY Robot Kit' is missing the main circuit board as listed in the manual.,ORD-2026-98782,Open,High,UK
+1023,Coupon Code Expired Too Soon,"The advertisement said the coupon 'FLASH15' was valid until today, but it shows expired.",N/A,Open,Medium,Germany
+1024,Customs/Duties Question,Will I have to pay any customs fees for international shipping to Canada for my order?,ORD-2026-98783,Open,Low,Denmark
+1025,Problem Uploading Photo for Review,"I am trying to upload a photo for a product review, but the website gives an error.",N/A,Open,Low,Germany
+1026,Request to Hold Shipment,"Please hold the shipment of my order for one week, as I will be out of town.",ORD-2026-98784,Pending,Medium,Sweden
+1027,Website Technical Error,The checkout button is unresponsive on mobile devices. I can't complete my purchase.,N/A,Open,High,UK
+1028,Store Credit Balance Inquiry,What is my current store credit balance after my last return?,N/A,Open,Low,Germany
+1029,Subscription Box Issue,My monthly subscription box for 'Gourmet Snacks' has not arrived this month.,SUB-2026-101,Open,Medium,Germany
+1030,Product Sizing Chart Request,I need detailed measurements for the 'Men's Slim Fit Jeans' before placing an order.,N/A,Open,Low,Denmark
+1031,Dispute Shipping Cost,The shipping cost calculated ($15) seems too high for a small item like 'Phone Case'.,ORD-2026-98785,Open,Medium,Sweden
+1032,Delayed Refund Processing,It's been 10 business days since you confirmed the refund. Still not credited to my account.,ORD-2026-98786,Open,High,Denmark
+1033,Request for Alternative Product,The product I want is out of stock. Are there any similar alternatives you would recommend?,N/A,Open,Low,Denmark
+1034,Error Message on Product Page,"When I select the 'Red' color variant for the 'Knit Scarf', I get a '404 not found' error.",N/A,Open,Medium,Denmark
+1035,Inquiry about Gift Wrapping,"I selected the gift wrapping option, but it wasn't applied to the 'Children's Toy'.",ORD-2026-98787,Open,Medium,Sweden
+1036,Return Window Extension Request,Can I get an extension on the return window? I was hospitalized and couldn't ship the item back in time.,ORD-2026-98788,Open,High,UK
+1037,Request for Digital Download Link,"I purchased a digital e-book, but the download link in the confirmation email is broken.",ORD-2026-98789,Open,Medium,Denmark
+1038,Newsletter Unsubscribe Issue,"I've tried to unsubscribe from your marketing emails several times, but I keep receiving them.",N/A,Open,Low,Sweden
+1039,Inconsistent Pricing,The price for 'Hiking Boots' changed from $120 to $150 between adding it to the cart and checkout.,N/A,Open,High,Germany
+1040,Follow-up on Previous Ticket,"I am following up on ticket #998, which was about a delivery issue two weeks ago.",ORD-2026-98790,Open,Medium,Denmark
+1041,Request for Loyalty Program Info,How do I sign up for your loyalty program and what are the benefits?,N/A,Open,Low,Denmark
+1042,Problem with Checkout Address Autofill,The address autofill feature is populating an old address when I try to place an order.,N/A,Open,Medium,Sweden
+1043,Need Proof of Delivery,"The tracking shows 'Delivered,' but I never received the package. I need proof of delivery.",ORD-2026-98791,Open,High,Germany
+1044,Request to Add Item to Existing Order,I forgot to add a small item ('Shoelaces') to my recent order. Can it be added?,ORD-2026-98792,Pending,Medium,Sweden
+1045,Inquiry about International Shipping,"Do you ship the 'Portable Speaker' to Germany? If so, what are the costs and expected timeline?",N/A,Open,Low,Denmark
+1046,Item Not as Pictured,The color of the 'Turquoise Pendant' is much darker in person than it appeared on the website.,ORD-2026-98793,Open,High,Denmark
+1047,Unable to Process Return Online,The online return portal keeps freezing when I try to submit my return request for item 456.,ORD-2026-98794,Open,Medium,Denmark
+1048,Question about Ingredients,I have an allergy. Can you confirm if the 'Protein Powder' contains any nuts?,N/A,Open,Low,UK
+1049,Technical Issue with Gift Card,I am unable to redeem my e-gift card (Code: GFT789). It says the code is invalid.,N/A,Open,High,Germany
+1050,Request for Size Exchange,I want to exchange the size 8 'Running Shoes' for a size 9. Please advise on the process.,ORD-2026-98795,Open,High,UK
