@@ -25,22 +25,20 @@ with tab1:
                                height=200)
 
     if st.button("Generate SOP"):
-        if access_password == st.secrets["APP_PASSWORD"]:
-            if messy_input:
-                with st.spinner("Gemini is structuring your documentation..."):
-                    prompt = (
-                        f"Convert the following messy process description into a professional Standard Operating Procedure (SOP). "
-                        f"Use these Markdown headings: Objective, Prerequisites, Step-by-Step Instructions, and Common Troubleshooting. "
-                        f"Keep it concise and clear for a new hire. Process: {messy_input}"
-                    )
-                    
-                    response = model.generate_content(prompt)
-                    st.markdown("---")
-                    st.markdown(response.text)
-            else:
-                st.warning("Please enter a process description.")
+        if messy_input:
+            with st.spinner("Gemini is structuring your documentation..."):
+                prompt = (
+                    f"Convert the following messy process description into a professional Standard Operating Procedure (SOP). "
+                    f"Use these Markdown headings: Objective, Prerequisites, Step-by-Step Instructions, and Common Troubleshooting. "
+                    f"Keep it concise and clear for a new hire. Process: {messy_input}"
+                )
+                
+                response = model.generate_content(prompt)
+                st.markdown("---")
+                st.markdown(response.text)
         else:
-        st.error("Please enter the correct Access Key to use the AI features.")
+            st.warning("Please enter a process description.")
+    
 
 # --- TAB 2: TICKET TRIAGE ---
 with tab2:
