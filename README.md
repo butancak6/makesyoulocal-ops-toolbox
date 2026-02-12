@@ -10,6 +10,8 @@ This repository contains a prototype built for the **Automation Operations Speci
 - **Friction-to-SOP:** Converts messy process descriptions into structured Markdown SOPs.
 - **Ticket Insight Triage:** Analyzes CSV ticket data to identify recurring manual work.
 - **Live Demo:** [https://makesyoulocal-ops-toolbox-ffi8mrmrph2mf5h455xkb9.streamlit.app/]
+- **Demo Tickets:** [Download/View demo tickets](./Demo_Tickets-MakesYouLocal.csv)
+)
 
 ### 2. Internal Friction Triage Workflow (Make.com)
 - **Logic:** Connects Google Forms to Asana (High Priority) and Google Sheets (Backlog).
